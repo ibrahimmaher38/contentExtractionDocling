@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Account Closure-BRD-HDB V0.2</title>
+<meta name="generator" content="Docling HTML Serializer"/>
+<style>
+    html {
+        background-color: #f5f5f5;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+    }
+    body {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color: #333;
+        margin-top: 1.5em;
+        margin-bottom: 0.5em;
+    }
+    h1 {
+        font-size: 2em;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 0.3em;
+    }
+    table {
+        border-collapse: collapse;
+        margin: 1em 0;
+        width: 100%;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+    figure {
+        margin: 1.5em 0;
+        text-align: center;
+    }
+    figcaption {
+        color: #666;
+        font-style: italic;
+        margin-top: 0.5em;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    pre {
+        background-color: #f6f8fa;
+        border-radius: 3px;
+        padding: 1em;
+        overflow: auto;
+    }
+    code {
+        font-family: monospace;
+        background-color: #f6f8fa;
+        padding: 0.2em 0.4em;
+        border-radius: 3px;
+    }
+    pre code {
+        background-color: transparent;
+        padding: 0;
+    }
+    .formula {
+        text-align: center;
+        padding: 0.5em;
+        margin: 1em 0;
+        background-color: #f9f9f9;
+    }
+    .formula-not-decoded {
+        text-align: center;
+        padding: 0.5em;
+        margin: 1em 0;
+        background: repeating-linear-gradient(
+            45deg,
+            #f0f0f0,
+            #f0f0f0 10px,
+            #f9f9f9 10px,
+            #f9f9f9 20px
+        );
+    }
+    .page-break {
+        page-break-after: always;
+        border-top: 1px dashed #ccc;
+        margin: 2em 0;
+    }
+    .key-value-region {
+        background-color: #f9f9f9;
+        padding: 1em;
+        border-radius: 4px;
+        margin: 1em 0;
+    }
+    .key-value-region dt {
+        font-weight: bold;
+    }
+    .key-value-region dd {
+        margin-left: 1em;
+        margin-bottom: 0.5em;
+    }
+    .form-container {
+        border: 1px solid #ddd;
+        padding: 1em;
+        border-radius: 4px;
+        margin: 1em 0;
+    }
+    .form-item {
+        margin-bottom: 0.5em;
+    }
+    .image-classification {
+        font-size: 0.9em;
+        color: #666;
+        margin-top: 0.5em;
+    }
+    details.docling-meta {
+        margin: 0.5em 0;
+        font-size: 0.9em;
+        text-align: left;
+    }
+    figure details.docling-meta {
+        text-align: left;
+    }
+    details.docling-meta > summary {
+        cursor: pointer;
+        color: #555;
+        font-style: italic;
+        padding: 2px 6px;
+    }
+    .docling-meta-field {
+        background-color: #f0f0f0;
+        border-left: 3px solid #ccc;
+        padding: 6px 10px;
+        margin: 4px 0 4px 1em;
+        border-radius: 3px;
+        text-align: left;
+    }
+    .docling-meta-field-label {
+        font-weight: bold;
+        color: #444;
+    }
+    pre.docling-meta-code {
+        background-color: #1e1e1e;
+        color: #d4d4d4;
+        border-radius: 4px;
+        padding: 10px 12px;
+        margin: 6px 0;
+        overflow-x: auto;
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+        font-size: 0.85em;
+        line-height: 1.45;
+        white-space: pre;
+        tab-size: 4;
+    }
+    pre.docling-meta-code code {
+        background: transparent;
+        border: none;
+        padding: 0;
+        color: inherit;
+        font-family: inherit;
+        font-size: inherit;
+        display: block;
+        white-space: pre;
+    }
+</style>
+</head>
+<body>
+<div class='page'>
+<p></p>
+<h2></h2>
+<p>Copyright</p>
+<p>©2022 Valleysoft Egypt. All rights reserved. This document or any portion thereof may not be reproduced or used in any manner whatsoever without the express written permission of Intercom Enterprises.</p>
+<p>Abstract</p>
+<p>This document provides process description for BPM implementation, including roles, phases and alternative actions</p>
+<p>rights reserved. This document or any portion thereof may not be reproduced or used in any manner whatsoever without the express written permission of Intercom Enterprises.</p>
+<h2></h2>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<table><tbody><tr><th colspan="4"><strong><p>Document Change History</p></strong></th></tr><tr><td>Date</td><td>Author</td><td>Description/Changes</td><td>Version</td></tr><tr><td>23/5/2022</td><td>Assem ElDessouky</td><td>Communicated version with HDB</td><td>0.1</td></tr><tr><td>19/7/2022</td><td>Assem ElDessouky</td><td>Updated HDB Comments</td><td>0.2</td></tr></tbody></table>
+<p></p>
+<p></p>
+<table><tbody><tr><th><strong><p>Document Title</p></strong></th><th>Business Requirement Document</th></tr><tr><td><strong><p>Customer</p></strong></td><td>Housing and Development Bank</td></tr><tr><td><strong><p>Process owner</p></strong></td><td>To be filled by the bank</td></tr><tr><td><strong><p>Version</p></strong></td><td>0.2</td></tr><tr><td><strong><p>Issue date</p></strong></td><td>May, 2022</td></tr></tbody></table>
+<p></p>
+<table><tbody><tr><th></th><th>NAME</th><th>TITLE</th><th>SIGNATURE</th><th>DATE</th></tr><tr><td><strong><p>Author</p></strong></td><td>Assem El-Dessouky</td><td>Business Analyst Team Lead</td><td></td><td></td></tr></tbody></table>
+<p></p>
+<table><tbody><tr><th colspan="4"><strong><p>Read BY</p></strong></th></tr><tr><td>NAME</td><td>TITLE</td><td>SIGNATURE</td><td>DATE</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
+<p></p>
+<table><tbody><tr><th colspan="4"><strong><p>Approved BY</p></strong></th></tr><tr><td>NAME</td><td>TITLE</td><td>SIGNATURE</td><td>DATE</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
+<p></p>
+<h2>Introduction</h2>
+<p>The document includes the business requirements instead of the scope of work document as per the communicated requirements documents from the bank</p>
+<p></p>
+<h2>Purpose</h2>
+<p>The purpose of this document is to present the Account Closure process to Housing and Development Bank in Egypt in detailed analysis.</p>
+<h2>Abbreviations / Data Glossary</h2>
+<table><tbody><tr><th><strong><p>Acronym</p></strong></th><th><strong><p>Arabic</p></strong></th><th><strong><p>Description</p></strong></th></tr><tr><td>HDB</td><td dir="rtl">بنك التعمير و الاسكان</td><td>Housing and Development Bank</td></tr><tr><td>CS</td><td dir="rtl">خدمة العملاء</td><td>Customer Services</td></tr><tr><td>CIF</td><td dir="rtl">رقم العميل</td><td>Customer Information ID</td></tr><tr><td>CU</td><td dir="rtl">مركزية الحسابات</td><td>Central Unit</td></tr></tbody></table>
+<h2>Account Closure - Process Requirement</h2>
+<p>This Process handle the full cycle of Account Closure requested by the Customers to Close his Account.</p>
+<p></p>
+<h2>Hierarchy of Process Teams</h2>
+<p>The departments and teams engaged in the documentary workflow and their approval hierarchies</p>
+<table><tbody><tr><th><strong><p>Group / Team</p></strong></th><th><strong><p>Maker</p></strong></th><th><strong><p>Checker</p></strong></th><th>Manager</th></tr><tr><td>Branch Customer Service</td><td>Y</td><td>Y</td><td>N/A</td></tr><tr><td>Central Unit of Account Opening</td><td>Y</td><td>Y</td><td>N/A</td></tr></tbody></table>
+<p></p>
+<h2>Requirements of Participants Groups &amp; Roles</h2>
+<table><tbody><tr><th>Category</th><th>Requirement</th></tr><tr><td>User/Group Specific Requirements</td><td><table><tbody><tr><th><strong><p>Group / Role</p></strong></th><th><strong><p>Requirement</p></strong></th></tr><tr><td>Branch Customer Service Maker</td><td>Search Customer and Initiate Account Closure request if the customer is existing.</td></tr><tr><td>Branch Customer Service Checker</td><td>Review the submitted Request by Same branch Customer service Maker.</td></tr><tr><td>Central Unit Maker</td><td>Review the request and the attached documents and submit it to his checker for approve.</td></tr><tr><td>Central Unit Checker</td><td>Review the request and in case the request is approved the account will be Closed on core banking system.</td></tr></tbody></table>
+<p></p></td></tr></tbody></table>
+<p></p>
+<h2>Process Users Roles &amp; Teams requirements</h2>
+<table><tbody><tr><th>Department</th><th>Case routing conditions</th><th>Tasks assign &amp; Reassign authority</th></tr><tr><td>Customer Service Department</td><td><p>The returned tasks during the flow, will be assigned automatically to the maker team who is associated with the department.</p>
+<p></p></td><td>Branch Customer Service Checker/Branch Manager</td></tr><tr><td>Central Unit Department</td><td><p>The received tasks will be added automatically to checkers include conditions:</p>
+<ol>
+<li style="list-style-type: '1- ';">Approve the task and end the process</li>
+<li style="list-style-type: '2- ';">Return the task to Branch customer service maker.</li>
+</ol></td><td>Central Unit Department Checker/Head of Central Unit</td></tr></tbody></table>
+<h2>Account Closure Process - Business Rules</h2>
+<table><tbody><tr><th>Code</th><th>Description</th><th>Message Code</th><th>Email Code</th></tr><tr><td>BR001</td><td>The Request submitted by the branch customer service Maker can be reviewed only by the branch customer service Checker form the same Branch.</td><td>N/A</td><td>N/A</td></tr><tr><td>BR002</td><td>In case the Task due date for both the Initiate Request task and Review Request Task has exceeded the task’s SLA, system will send Escalation email to the user Direct manager. The system will retrieve the Direct manager’s email of the task owner from the integration with LDAP.</td><td>N/A</td><td>N/A</td></tr><tr><td>BR003</td><td>In case of any Return the user must select the return reason.</td><td>N/A</td><td>N/A</td></tr><tr><td>BR004</td><td>All used Look up tables returned data will be provided by core banking system T24.</td><td>N/A</td><td>N/A</td></tr><tr><td>BR006</td><td>The user will fill the customer data in the process form and extract it from the system for customer signature and upload it again.</td><td>N/A</td><td>N/A</td></tr><tr><td>BR008</td><td>The customer can close his account from any branch in Egypt.</td><td>N/A</td><td>N/A</td></tr><tr><td>BR009</td><td>In case the customer hasn’t CIF/Account number the system will not proceed.</td><td>N/A</td><td>N/A</td></tr></tbody></table>
+<h3>1 Process Model</h3>
+<h3>2 Properties</h3>
+<table><tbody><tr><th>Item</th><th>Description</th></tr><tr><td>Process Name</td><td>Account Closure Request</td></tr><tr><td>Instance Title “will appear in in-box tasks to the end user”</td><td>Customer Name - Customer CIF– Account Number</td></tr><tr><td>Expose performance metrics “who allowed to view the performance for the current process”</td><td><p>Branch Manager</p>
+<p></p></td></tr><tr><td>Process Owner</td><td>Head of Retail</td></tr><tr><td>Expose business data “case data summary will appear in in-box view for the end user”</td><td><p>Case ID (BPM ID)</p>
+<p>Operation Type (Account Closure)</p>
+<p>Account Type (same as retrieved from core banking system)</p>
+<p>Customer CIF (same as retrieved from core banking system))</p>
+<p>Account Number (same as retrieved from core banking system)</p>
+<p>Customer Name</p>
+<p>Request date</p></td></tr><tr><td>Process due date (SLA) “will useful for monitor the process status ‘in-progress, at risk, or due”</td><td>Will be filled by HDB</td></tr></tbody></table>
+<p></p>
+<h3>3 Process Tasks / Activities</h3>
+<h4>Activity CS01-Branch Customer Service-Maker</h4>
+<table><tbody><tr><th><strong><p>Item</p></strong></th><th colspan="5"><strong><p>Description</p></strong></th></tr><tr><td>Activity ID</td><td colspan="5">CS01</td></tr><tr><td>Alias name</td><td colspan="5">Initiation Account Closure Request</td></tr><tr><td>User Role / Actor</td><td colspan="5">Makers [Customer Services]</td></tr><tr><td>Task Due date</td><td colspan="5">Initial value “WILL BE SET BY HDB” in order to calculate the task progress due time</td></tr><tr><td>Preconditions</td><td colspan="5">The user is authorized &amp; successfully logged in the system</td></tr><tr><td>Main flow – Initiate new request</td><td colspan="5"><ul>
+<li>The user will be able to initiate new request for Account Closure.</li>
+<li>The user will retrieve the customer data by CIF/NID then the workflow system will integrate with core banking to retrieve all the existing data for customer.</li>
+<li>The user will be able to attach the required documents as described in the form specification.</li>
+<li>The user has to upload the Account Closure form as an attachment in case there is no integration with tap devices.</li>
+<li>the customer must have previous CIF/Account number has been created on core banking system, The system should validate it and don’t proceed to close the account if there is no CIF/Account number for customer.</li>
+<li>The user will be able to write comment. (If there is any).</li>
+</ul></td></tr><tr><td>Alternative flow – Update returned request</td><td colspan="5"><ul>
+<li>The user will be able to modify returned request based on the comments and submit it again for his checker.</li>
+</ul>
+<ul>
+<li>The system will validate the request data as mentioned above in the Main flow – Initiate new request process “as if the user is resetting the whole transaction “.</li>
+<li>The user will be able to fill in the user comment with reason. (If there is any).</li>
+</ul></td></tr><tr><td>Alternative flow – Terminate</td><td colspan="5">The user will be able to terminate the request before submit it.</td></tr><tr><td rowspan="2">Attached Documents List</td><td colspan="2">Document type</td><td colspan="3">Validation</td></tr><tr><td colspan="2"><ul>
+<li>Account Closure Form</li>
+</ul>
+<p></p></td><td colspan="3"><strong><p>Mandatory</p></strong></td></tr><tr><td></td><td colspan="2">Proof of ID</td><td colspan="3"><strong><p>Mandatory</p></strong></td></tr><tr><td colspan="6"><strong><p>User Interface Specification</p></strong></td></tr><tr><td><strong><p>Field Name</p></strong></td><td><strong><p>Alias AR</p></strong></td><td colspan="2"><strong><p>Control Type</p></strong></td><td><strong><p>Validation</p></strong></td><td><strong><p>Source (integration / Reference filed)</p></strong></td></tr><tr><td><strong><p>Customer Search Screen</p></strong></td><td><strong><p>شاشة البحث عن العميل</p></strong></td><td colspan="2"><strong><p>N/A</p></strong></td><td><strong><p>N/A</p></strong></td><td><strong><p>N/A</p></strong></td></tr><tr><td>Customer Search ID</td><td dir="rtl">رقم البحث عن العميل</td><td colspan="2"><p>List</p>
+<ul>
+<li>National ID</li>
+<li>CIF</li>
+</ul>
+<p></p></td><td>N/A</td><td>N/A</td></tr><tr><td>National ID</td><td dir="rtl">الرقم القومي</td><td colspan="2">Number</td><td><p>Mandatory</p>
+<p>14 digits</p>
+<p>In Case the user chooses National ID</p></td><td>N/A</td></tr><tr><td>CIF</td><td dir="rtl">رقم العميل</td><td colspan="2">Number</td><td><p>Mandatory</p>
+<p>In Case the user chooses CIF</p></td><td>N/A</td></tr><tr><td><p>Close Customer Account</p>
+<p></p></td><td><p>اغلاق حساب العميل</p>
+<p></p></td><td colspan="2">Button</td><td>This button will be available in case the customer account is activated in the Core banking System and retrieve his data.</td><td>N/A</td></tr><tr><td><strong><p>Section 1- Basic Information</p></strong></td><td dir="rtl">البيانات الاساسية</td><td colspan="2">N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>Creation Date</td><td dir="rtl">تاريخ التسجيل</td><td colspan="2">Read only text</td><td>Display todays’ date</td><td>System date</td></tr><tr><td>User Branch Name / User branch Number</td><td dir="rtl">اسم فرع المستخدم / رقم فرع المستخدم</td><td colspan="2">Read only text</td><td>Display the maker branch name &amp; branch code</td><td>User’s information</td></tr><tr><td>Customer CIF</td><td dir="rtl">كود العميل</td><td colspan="2">Number</td><td>Read Only</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>National ID</td><td dir="rtl">الرقم القومي</td><td colspan="2">Number</td><td>Read Only</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>Title</td><td dir="rtl">اللقب</td><td colspan="2">List</td><td>Read Only</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>Customer Full Name</td><td dir="rtl">اسم العميل</td><td colspan="2">List</td><td>Read Only</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>Gender</td><td dir="rtl">النوع</td><td colspan="2">List</td><td>Read Only</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>National Identification Issued</td><td dir="rtl">محل اصدار مستند تحقيق الشخصية</td><td colspan="2">Text</td><td>Read Only</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>Date of Birth</td><td dir="rtl">تاريخ الميلاد</td><td colspan="2">Date</td><td>Read Only</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>Issue Date</td><td dir="rtl">تاريخ الاصدار</td><td colspan="2">Date</td><td>Read Only</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>Date of Expiry</td><td dir="rtl">تاريخ الانتهاء</td><td colspan="2">Date</td><td>Read Only</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td></td><td></td><td colspan="2"><strong><p>Section 2- Account Closure Details</p></strong></td><td></td><td></td></tr><tr><td>Account Number</td><td dir="rtl">رقم الحساب</td><td colspan="2">Number</td><td>Read Only</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>Currency</td><td dir="rtl">العملة</td><td colspan="2">List</td><td>Read Only</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>Account Type</td><td dir="rtl">نوع الحساب</td><td colspan="2">List</td><td>Read Only</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>Amount settlement Method</td><td></td><td colspan="2"><p>List</p>
+<ul>
+<li>Transfer Amount to another Account/ تحويل المبلغ الى حساب اخر</li>
+<li>withdrawal the Amount Cash/ سحب المبلغ نقدى</li>
+</ul></td><td></td><td></td></tr><tr><td>Transfer Account</td><td dir="rtl">حساب النقل</td><td colspan="2">List</td><td>Mandatory in case the user chooses to transfer amount to another account</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>Interest settlement</td><td dir="rtl">تسوية الفوائد</td><td colspan="2">Boolean</td><td>Mandatory</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>Commission</td><td dir="rtl">العمولة</td><td colspan="2">List</td><td>N/A</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>Closed Reason</td><td dir="rtl">سبب الاغلاق</td><td colspan="2">List</td><td>N/A</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>User comments</td><td dir="rtl">تعليقات المستخدم</td><td colspan="2">Text area</td><td>Optional in Return</td><td>N/A</td></tr><tr><td>History of comments</td><td dir="rtl">التعليقات السابقة</td><td colspan="2"><p>Read only text</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p></td><td>Represent the history of previous user’s comments (user / comment / Action / date)</td><td>N/A</td></tr><tr><td>EN</td><td>AR</td><td colspan="2">Control Type</td><td>Action</td><td>N/A</td></tr><tr><td>Submit</td><td><p>تنفيذ</p>
+<p></p></td><td colspan="2">Button</td><td>Send the transaction to the next step as flow diagram.</td><td>N/A</td></tr><tr><td>Cancel request</td><td dir="rtl">الغاء الطلب</td><td colspan="2">Button</td><td>In case the user wants to cancel the initiated request before submit it</td><td>N/A</td></tr></tbody></table>
+<h4>Activity CS02-Branch Customer Service-Maker</h4>
+<table><tbody><tr><th><strong><p>Item</p></strong></th><th colspan="5"><strong><p>Description</p></strong></th></tr><tr><td>Activity ID</td><td colspan="5">CS02</td></tr><tr><td>Alias name</td><td colspan="5">Returned Account Closure Request</td></tr><tr><td>User Role / Actor</td><td colspan="5">Makers [Customer Services]</td></tr><tr><td>Task Due date</td><td colspan="5">Initial value “WILL BE SET BY HDB” in order to calculate the task progress due time</td></tr><tr><td>Preconditions</td><td colspan="5"><p>The user is authorized &amp; successfully logged in the system</p>
+<ul>
+<li>The case has some modifications(amendment) and returned from checker for correction to submit it again.</li>
+</ul></td></tr><tr><td>Main flow – Initiate new request</td><td colspan="5"><ul>
+<li>The user will be able to Modify the request for Account Closure and submit it to checker.</li>
+<li>The user will modify the customer data then the workflow system will route to checker for review.</li>
+<li>The user will be able to attach the new required documents as described in the based on the returned request.</li>
+<li>The user will be able to write comment. (If there is any).</li>
+</ul></td></tr><tr><td>Alternative flow – Update returned request</td><td colspan="5"><ul>
+<li>The user will be able to modify returned request based on the comments and submit it again for his checker.</li>
+</ul>
+<ul>
+<li>The system will validate the request data as mentioned above in the Main flow – Initiate new request process “as if the user is resetting the whole transaction “.</li>
+<li>The user will be able to fill in the user comment with reason. (If there is any).</li>
+</ul></td></tr><tr><td rowspan="2">Attached Documents List</td><td colspan="2">Document type</td><td colspan="3">Validation</td></tr><tr><td colspan="2"><ul>
+<li>Account Closure Form</li>
+</ul>
+<p></p></td><td colspan="3"><strong><p>Mandatory</p></strong></td></tr><tr><td></td><td colspan="2">Proof of ID</td><td colspan="3"><strong><p>Mandatory</p></strong></td></tr><tr><td colspan="6"><strong><p>User Interface Specification</p></strong></td></tr><tr><td><strong><p>Field Name</p></strong></td><td><strong><p>Alias AR</p></strong></td><td colspan="2"><strong><p>Control Type</p></strong></td><td><strong><p>Validation</p></strong></td><td><strong><p>Source (integration / Reference filed)</p></strong></td></tr><tr><td><strong><p>Section 1- Basic Information</p></strong></td><td dir="rtl">البيانات الاساسية</td><td colspan="2">N/A</td><td>N/A</td><td>N/A</td></tr><tr><td>Creation Date</td><td dir="rtl">تاريخ التسجيل</td><td colspan="2">Read only text</td><td>Display todays’ date</td><td>System date</td></tr><tr><td>User Branch Name / User branch Number</td><td dir="rtl">اسم فرع المستخدم / رقم فرع المستخدم</td><td colspan="2">Read only text</td><td>Display the maker branch name &amp; branch code</td><td>User’s information</td></tr><tr><td>Customer CIF</td><td dir="rtl">كود العميل</td><td colspan="2">Number</td><td>Read Only</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>National ID</td><td dir="rtl">الرقم القومي</td><td colspan="2">Number</td><td>Read Only</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>Title</td><td dir="rtl">اللقب</td><td colspan="2">List</td><td>Read Only</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>Customer Full Name</td><td dir="rtl">اسم العميل</td><td colspan="2">Text</td><td>Read Only</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>Gender</td><td dir="rtl">النوع</td><td colspan="2">List</td><td>Read Only</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>National Identification Issued</td><td dir="rtl">محل اصدار مستند تحقيق الشخصية</td><td colspan="2">Text</td><td>Read Only</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>Date of Birth</td><td dir="rtl">تاريخ الميلاد</td><td colspan="2">Date</td><td>Read Only</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>Issue Date</td><td dir="rtl">تاريخ الاصدار</td><td colspan="2">Date</td><td>Read Only</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>Date of Expiry</td><td dir="rtl">تاريخ الانتهاء</td><td colspan="2">Date</td><td>Read Only</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td></td><td></td><td colspan="2"><strong><p>Section 2- Account Closure Details</p></strong></td><td></td><td></td></tr><tr><td>Account Number</td><td dir="rtl">رقم الحساب</td><td colspan="2">Number</td><td>Read Only</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>Currency</td><td dir="rtl">العملة</td><td colspan="2">List</td><td>Read Only</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>Account Type</td><td dir="rtl">نوع الحساب</td><td colspan="2">List</td><td>Read Only</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>Amount settlement Method</td><td></td><td colspan="2"><p>List</p>
+<ul>
+<li>Transfer Amount to another Account/ تحويل المبلغ الى حساب اخر</li>
+<li>withdrawal the Amount Cash/ سحب المبلغ نقدى</li>
+</ul></td><td></td><td></td></tr><tr><td>Transfer Account</td><td dir="rtl">حساب النقل</td><td colspan="2">List</td><td>Mandatory in case the user chooses to transfer amount to another account</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>Interest settlement</td><td dir="rtl">تسوية الفوائد</td><td colspan="2">Boolean</td><td>Mandatory</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>Commission</td><td dir="rtl">العمولة</td><td colspan="2">List</td><td>N/A</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>Closed Reason</td><td dir="rtl">سبب الاغلاق</td><td colspan="2">List</td><td>N/A</td><td>Same as retrieved from the Core Banking while Search</td></tr><tr><td>User comments</td><td dir="rtl">تعليقات المستخدم</td><td colspan="2">Text area</td><td>Optional in Return</td><td>N/A</td></tr><tr><td>History of comments</td><td dir="rtl">التعليقات السابقة</td><td colspan="2"><p>Read only text</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p></td><td>Represent the history of previous user’s comments (user / comment / Action / date)</td><td>N/A</td></tr><tr><td>EN</td><td>AR</td><td colspan="2">Control Type</td><td>Action</td><td>N/A</td></tr><tr><td>Submit Modification</td><td><p>تنفيذ التعديلات</p>
+<p></p></td><td colspan="2">Button</td><td>Send the transaction to the next step as flow diagram.</td><td>N/A</td></tr></tbody></table>
+<h4>Activity CS03-Branch Customer Service-Checker</h4>
+<table><tbody><tr><th colspan="2"><strong><p>Item</p></strong></th><th colspan="5"><strong><p>Description</p></strong></th></tr><tr><td colspan="2">Activity ID</td><td colspan="5">CS03</td></tr><tr><td colspan="2">Alias name</td><td colspan="5">Approve Account Closure Request</td></tr><tr><td colspan="2">User Role / Actor</td><td colspan="5">Checkers [Branch customer services]</td></tr><tr><td colspan="2">Task Due date</td><td colspan="5">Initial value “WILL BE SET BY HDB” in order to calculate the task progress due time</td></tr><tr><td colspan="2">Preconditions</td><td colspan="5"><ul>
+<li>The user is authorized &amp; successfully logged in the system.</li>
+<li>The task will proceed from maker to checker in case of: -</li>
+</ul>
+<ul>
+<li>The case is initiated by maker and submit.</li>
+<li>The case has some modifications(amendment) and returned to maker for correction and submit it again.</li>
+</ul></td></tr><tr><td colspan="2">Main flow Acceptance Criteria – Approve maker action</td><td colspan="5"><ul>
+<li>the user will be able to view the initiated request from makers (Checker of branch customer services) as read only data.</li>
+<li>the user will be able to view the added request attachments.</li>
+<li>the user will be able to view the requested comments history (user – comment –date).</li>
+<li>the user will be able to add comments.</li>
+<li>the user will be informed with any validation errors.</li>
+</ul></td></tr><tr><td colspan="2">Alternative flow – return request to maker</td><td colspan="5"><ul>
+<li>The user will be informed with any validation errors.</li>
+<li>The user will be able to view the initiated request by the makers within the same number of branch customer services.</li>
+<li>The user will be able to view the request detailed information.</li>
+<li>The user will be able to view &amp; browse attachments.</li>
+<li>The user will able to return the request to maker and add comments to the request.</li>
+<li>The system will complete the request successfully.</li>
+</ul></td></tr><tr><td rowspan="2" colspan="2">Attached Documents List</td><td colspan="2">Document type</td><td colspan="3">Validation</td></tr><tr><td colspan="2">N/A</td><td colspan="3"><p>View only the added attachment</p>
+<p></p></td></tr><tr><td colspan="7"><strong><p>User Interface Specification</p></strong></td></tr><tr><td><strong><p>Field Name</p></strong></td><td colspan="2"><strong><p>Alias AR</p></strong></td><td colspan="2"><strong><p>Control Type</p></strong></td><td><strong><p>Validation</p></strong></td><td><strong><p>Source (integration / Reference filed)</p></strong></td></tr><tr><td>Display All request information as in sections</td><td colspan="2" dir="rtl">يمكن تعديل البيانات</td><td colspan="2">N/A</td><td>N/A</td><td>N/A</td></tr><tr><td><strong><p>User Comments</p></strong></td><td colspan="2"><strong><p>Label</p></strong></td><td colspan="2"><strong><p>Control Type</p></strong></td><td><strong><p>Validation</p></strong></td><td></td></tr><tr><td>User comments</td><td colspan="2" dir="rtl">اضافة تعليقات</td><td colspan="2">Text area</td><td>Mandatory in return</td><td>N/A</td></tr><tr><td>History comment</td><td colspan="2" dir="rtl">التعليقات السابقة</td><td colspan="2"><p>Read only text</p>
+<p></p></td><td>Represent the history of previous user’s comments (user / comment / Action / date)</td><td>N/A</td></tr><tr><td>EN</td><td colspan="2">AR</td><td colspan="2">Control Type</td><td>Action</td><td></td></tr><tr><td>Approve</td><td colspan="2"><p>تنفيذ</p>
+<p></p></td><td colspan="2">Button</td><td><p>Send the transaction to the next step as flow diagram to</p>
+<p>Branch Manager.</p></td><td>N/A</td></tr><tr><td>Return to Maker</td><td colspan="2" dir="rtl">الرجوع الى المنفذ</td><td colspan="2">Button</td><td>In case the user wants to return to his maker</td><td>N/A</td></tr></tbody></table>
+<h4>Activity CU01-Central Unit of Account Opening-Maker</h4>
+<table><tbody><tr><th colspan="2"><strong><p>Item</p></strong></th><th colspan="5"><strong><p>Description</p></strong></th></tr><tr><td colspan="2">Activity ID</td><td colspan="5">CN01</td></tr><tr><td colspan="2">Alias name</td><td colspan="5">Review of Central Opening Department</td></tr><tr><td colspan="2">User Role / Actor</td><td colspan="5">Account Opening [Maker]</td></tr><tr><td colspan="2">Task Due date</td><td colspan="5">Initial value “WILL BE SET BY HDB” in order to calculate the task progress due time</td></tr><tr><td colspan="2">Preconditions</td><td colspan="5">The user is authorized &amp; successfully logged in the system.</td></tr><tr><td colspan="2">Main flow Acceptance Criteria – Approve maker action</td><td colspan="5"><ul>
+<li>The user will be able to view the requested details information</li>
+<li>The user will be able to view all attachments but have no permission for deleting any old attachments</li>
+<li>The user will be able to view the requested comments history (user- comment-date)</li>
+<li>The user will be informed with any validation errors</li>
+</ul></td></tr><tr><td colspan="2">Alternative flow – return request to maker</td><td colspan="5"><ul>
+<li>The user will be informed with any validation errors.</li>
+<li>The user will be able to return to branch for any modification.</li>
+<li>The user will be able to fill in the user comment.</li>
+</ul></td></tr><tr><td rowspan="2" colspan="2">Attached Documents List</td><td colspan="2">Document type</td><td colspan="3">Validation</td></tr><tr><td colspan="2">N/A</td><td colspan="3">View only the added attachment</td></tr><tr><td colspan="7"><strong><p>User Interface Specification</p></strong></td></tr><tr><td><strong><p>Field Name</p></strong></td><td colspan="2"><strong><p>Alias AR</p></strong></td><td colspan="2"><strong><p>Control Type</p></strong></td><td><strong><p>Validation</p></strong></td><td><strong><p>Source (integration / Reference filed)</p></strong></td></tr><tr><td>Display All request information as in sections</td><td colspan="2" dir="rtl">لا يمكن تعديل البيانات</td><td colspan="2">Read only section</td><td>N/A</td><td>N/A</td></tr><tr><td><strong><p>User Comments</p></strong></td><td colspan="2"><strong><p>Label</p></strong></td><td colspan="2"><strong><p>Control Type</p></strong></td><td><strong><p>Validation</p></strong></td><td></td></tr><tr><td>User comment</td><td colspan="2" dir="rtl">اضافة تعليق</td><td colspan="2">Text area</td><td>Mandatory in return</td><td>N/A</td></tr><tr><td>History comments</td><td colspan="2" dir="rtl">التعليقات السابقة</td><td colspan="2"><p>Read only text</p>
+<p></p></td><td>Represent the history of previous user’s comments (user / comment / Action / date)</td><td>N/A</td></tr><tr><td><strong><p>Control buttons</p></strong></td><td colspan="2"><strong><p>Label</p></strong></td><td colspan="2"><strong><p>AR</p></strong></td><td><strong><p>Action</p></strong></td><td></td></tr><tr><td>Approve</td><td colspan="2"><p>الموافقة على الطلب</p>
+<p></p></td><td colspan="2">Button</td><td><p>Send the transaction to the next step as flow diagram to</p>
+<p>Account Opening Maker.</p></td><td>N/A</td></tr><tr><td>Return to Branch</td><td colspan="2" dir="rtl">الرجوع الى الفرع</td><td colspan="2">Button</td><td>In case the user wants to return to Branch CS Maker</td><td>N/A</td></tr></tbody></table>
+<h4>Activity CU02-Central Unit of Account Opening-Checker</h4>
+<table><tbody><tr><th><strong><p>Item</p></strong></th><th colspan="2"><strong><p>Description</p></strong></th></tr><tr><td>Activity ID</td><td colspan="2">CU02</td></tr><tr><td>Alias name</td><td colspan="2">Approve of Central Unit Department</td></tr><tr><td>User Role / Actor</td><td colspan="2">Central Unit [Checker]</td></tr><tr><td>Task Due date</td><td colspan="2">Initial value “WILL BE SET BY HDB” in order to calculate the task progress due time</td></tr><tr><td>Preconditions</td><td colspan="2">The user is authorized &amp; successfully logged in the system</td></tr><tr><td>Main flow Acceptance Criteria – Approve maker action</td><td colspan="2"><ul>
+<li>The user will be able to view the requested details information as read only data.</li>
+<li>The user will be able to view the requested comments history (user – comment – date)</li>
+<li>The user will review the attachment &amp; comment to proceed with approve.</li>
+<li>The user will be informed with any validation errors.</li>
+<li>The user will be able to close the account after his approval.</li>
+<li>The user will be able to view &amp; browse the added request attachments.</li>
+<li>The user will be able to add comment to the request.</li>
+</ul></td></tr><tr><td>Alternative flow – return request to maker</td><td colspan="2"><ul>
+<li>The user will be able to view the requested details information.</li>
+<li>The user will be informed with any validation errors</li>
+<li>add his comment in the comments section is optional.</li>
+</ul></td></tr><tr><td rowspan="2">Attached Documents List</td><td>Document type</td><td>Validation</td></tr><tr><td>N/A</td><td>View only the added attachment</td></tr><tr><td colspan="3"><strong><p>User Interface Specification</p></strong></td></tr></tbody></table>
+<table><tbody><tr><th><strong><p>Field Name</p></strong></th><th><strong><p>Alias AR</p></strong></th><th><strong><p>Control Type</p></strong></th><th><strong><p>Validation</p></strong></th><th><strong><p>Source (integration / Reference filed)</p></strong></th></tr><tr><td>Display All request information as in sections</td><td dir="rtl">لا يمكن تعديل البيانات</td><td>Read only section</td><td>N/A</td><td>N/A</td></tr><tr><td><strong><p>User Comments</p></strong></td><td><strong><p>Label</p></strong></td><td><strong><p>Control Type</p></strong></td><td><strong><p>Validation</p></strong></td><td></td></tr><tr><td>User comment</td><td dir="rtl">اضافة تعليق</td><td>Text area</td><td>Mandatory in return</td><td>N/A</td></tr><tr><td>History comments</td><td dir="rtl">التعليقات السابقة</td><td><p>Read only text</p>
+<p></p></td><td>Represent the history of previous user’s comments (user / comment / Action / date)</td><td>N/A</td></tr><tr><td><strong><p>Control buttons</p></strong></td><td><strong><p>Label</p></strong></td><td><strong><p>AR</p></strong></td><td><strong><p>Action</p></strong></td><td></td></tr><tr><td>Approve Maker Action</td><td dir="rtl"><p>الموافقة على طلب المنفذ</p>
+<p></p></td><td>Button</td><td><p>Send the transaction to the next step as flow diagram to</p>
+<p>Account Opening Maker.</p></td><td>N/A</td></tr><tr><td>Return to Maker</td><td dir="rtl">الرجوع الى المنفذ</td><td>Button</td><td>In case the user wants to return to Branch CS Maker</td><td>N/A</td></tr></tbody></table>
+<h2>Validation Requirements</h2>
+<table><tbody><tr><th>Features</th><th>Requirements</th></tr><tr><td><p>National ID Validation</p>
+<p></p></td><td><ul>
+<li>If the nationality is EG the system will validate and notify the user to enter the national ID number</li>
+<li>The system will validate national ID all data according to this Photo</li>
+</ul></td></tr><tr><td><p>System Log</p>
+<p></p></td><td>System will log the business user action for each step.</td></tr></tbody></table>
+<p></p>
+<p></p>
+<p></p>
+<h2>Email Notifications Specification</h2>
+<u><strong><p>This Section is to be filled by HDB</p></strong></u>
+<table><tbody><tr><th>Code</th><th>Purpose / Event</th><th>Target User</th><th>Mail Subject</th><th>Mail body</th></tr><tr><td><em><strong><p>EMS001</p></strong></em></td><td>Process due Escalation email</td><td>Customer Service Maker</td><td></td><td></td></tr></tbody></table>
+<h2>SMS Notifications Specification</h2>
+<u><strong><p>This Section is to be filled by HDB</p></strong></u>
+<table><tbody><tr><th>Code</th><th>Purpose / Event</th><th>Target User</th><th>SMS Subject</th><th>Mail body</th></tr><tr><td><em><strong><p>SMS001</p></strong></em></td><td>Account Closure Request Status</td><td>Customer</td><td></td><td></td></tr></tbody></table>
+<h2>Reports Specification</h2>
+<u><strong><p>This Section is to be filled by HDB</p></strong></u>
+<table><tbody><tr><th>Report Name</th><th>Value</th><th>Department</th></tr><tr><td></td><td></td><td>Branch</td></tr><tr><td></td><td></td><td>Branch</td></tr><tr><td></td><td></td><td>Central Unit Operation</td></tr><tr><td></td><td></td><td>Central Unit Operation</td></tr></tbody></table>
+<h2>Archiving Requirements</h2>
+<h3>4 Archiving Documents</h3>
+<ul>
+<li>The archived documents will be at DocuWare through integration and this archiving is handled by HDB, Valleysoft has no responsibility for any archiving.</li>
+</ul>
+<h3>5 Folder Structure</h3>
+<p>This is just an assumption from Valleysoft for the folder structure.</p>
+<h3>6 Document Types’ Properties</h3>
+<table><tbody><tr><th>Property name</th><th>Value</th></tr><tr><td>Document Name</td><td><p>Account Closure Form</p>
+<p>Proof of ID</p>
+<p></p></td></tr></tbody></table>
+<h2>Appendix A – Integration Points with other Systems</h2>
+<table><tbody><tr><th><strong><p>ID</p></strong></th><th><strong><p>Integration Point</p></strong></th><th><strong><p>Description</p></strong></th><th><strong><p>System</p></strong></th><th><strong><p>Request</p></strong></th><th><strong><p>Response Data t24</p></strong></th><th><strong><p>Agreed Action</p></strong></th></tr><tr><td>Int01</td><td>Customer information</td><td>Request CIF to retrieve customer information</td><td>T24</td><td>Basic data of the customer</td><td>Waiting for the webservice from HDB</td><td>HDB confirmed to avail the web service.</td></tr><tr><td>Int02</td><td>Balance Settlement</td><td>Request Amount details to another account</td><td>T24</td><td>Customer account data</td><td>Waiting for the webservice from HDB</td><td>HDB confirmed to avail the web service.</td></tr><tr><td>Int03</td><td>Account Closure Details</td><td>Request Account Closure details</td><td>T24</td><td>Activate Account data</td><td>Waiting for the webservice from HDB</td><td>HDB confirmed to avail the web service.</td></tr></tbody></table>
+<h2>Assumptions and Constraints</h2>
+<p>Account Closure Process applied as a for any customer wants to close his account on the following assumptions:</p>
+<ul>
+<li>The authorized users can use searching capabilities in the BPM system for the completed tasks and / or completed process within the user’s assigned branch and view the process instance data and its attachments.</li>
+<li>The authorized Central unit users can use searching capabilities in the BPM system for the completed tasks and / or completed process for all transactions on the systems produced from all branches and sectors and view the process instance data and its attachments.</li>
+<li>Any performance report can be generated from BPM system as long as the data is available in our system.</li>
+<li>Any searching query can be defined from the BPM system as long as the metadata of this query is available on the system.</li>
+<li>All interfaces will be in both Arabic and English languages.</li>
+</ul>
+<h2>Out of Scope</h2>
+<ul>
+<li>Valleysoft has no responsibility for any archiving document.</li>
+<li>Modification, Activation, fixing defects or enhancements to existing applications or any backend or front-end channels.</li>
+<li>Automation scripts and its implementation for various management activities.</li>
+<li>Data entry, data cleansing or data conversion on databases.</li>
+<li>Infrastructure monitoring.</li>
+<li>Any other requirement not mentioned in the BRD will be considered out of scope.</li>
+<li>Backup and restore of systems being developed and installed.</li>
+<li>All database security and polices are HDB responsibility, Valleysoft will use the database after applying all needed security permissions on database level and server levels from HDB administrator.</li>
+</ul>
+<p></p>
+</div>
+</body>
+</html>
