@@ -26,7 +26,7 @@ The following differences were observed between the original PDF and the generat
 
 1. The **Abstract** section, which appears earlier in the original PDF, was shifted to the very end of the Markdown document alongside one of the two images.
 
-2. The identifying information of the PDF document was extracted as a **two-column table**, with fields such as `Document Title` and their corresponding values such as `Business Requirement Document`.
+2. The identifying information of the PDF document was extracted as a **two-column table**, with the fields `Document Title`, `Business Requirement Document` being their headers.
 
 3. The two images in the original PDF were replaced with `<!-- image -->` placeholders in the Markdown output.
 
