@@ -12,7 +12,7 @@
    - https://www.youtube.com/watch?v=BWxdLm1KqTU
 
 3. **Throughout the task, ChatGPT was used for further explanations and assistance**
-   - Conversation: [ChatGPT Conversation](YOUR_CONVERSATION_LINK)
+   - Conversation: [ChatGPT Conversation](https://chatgpt.com/share/6a83ff41-3600-83ea-a083-64226db377ad)
 
 ---
 
